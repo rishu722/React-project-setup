@@ -1,0 +1,12 @@
+@import "../../scss/variable";
+
+.cardWrapper {
+  padding: 10px;
+  max-width: 250px;
+  border: 1px solid $black-color;
+  border-radius: 5px;
+  h2,
+  p {
+    margin: 0;
+  }
+}

@@ -1,0 +1,23 @@
+@import "../../scss/variable";
+.header {
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo img {
+      max-width: 60px;
+    }
+    nav ol {
+      display: flex;
+      li {
+        list-style: none;
+        display: inline-block;
+        padding: 10px;
+        a {
+          text-decoration: none;
+          color: $black-color;
+        }
+      }
+    }
+  }
+}
